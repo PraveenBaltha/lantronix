@@ -3,6 +3,7 @@ module.exports = {
         "browser": true,
         "es6": true
     },
+    
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
@@ -22,5 +23,11 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/no-unknown-property": 0,
+        "react/no-unescaped-entities":0,
+        "react/prop-types":0
+
     }
 };
