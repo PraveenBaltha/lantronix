@@ -1,0 +1,20 @@
+.leftSideBar{
+    border: none;    
+    margin-left: 0px;
+    position: relative;
+    z-index: 11111;
+    padding: 5px;
+    background-color: black;
+    height: calc(100vh);
+    color: white;
+}
+.container ul {
+    padding-left: 10px;
+}
+.container ul li{
+list-style: none;
+padding: 10px 0;
+margin: 10px;
+margin-left: 15px;
+cursor: pointer;
+}

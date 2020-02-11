@@ -1,0 +1,107 @@
+.formContainer input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    height: 25px;
+    outline: none;
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.formContainer i{
+   font-size: 17px;
+   color: #ccc;
+}
+.formContainer button {
+    color: #e23371;
+    margin-top:20px;
+    font-weight: bold;
+}
+.socialContainer i{
+  color: #fff;
+  font-size: 25px;
+  margin-right: 15px;
+}
+.footer {
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding-left: 210px;
+}
+.footer ul li  a{
+    color: #fff !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight: bold;
+    
+}
+.footer ul li {
+    margin-right: 25px;
+    display:inline-block;
+    list-style: none;
+}
+.copyRights {
+    float: right;
+    color: #fff !important; 
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 230px;
+}
+.headerContainer {
+    width: 100%;
+}
+.tablePagination span:nth-child(4){
+  background:white !important;
+  color:black;
+  cursor: pointer;
+}
+.tablePagination span {
+  margin-right: 20px;
+  font-size: 12px;
+}
+.paginationFirst {
+  background: purple;
+  height: 30px;
+  width: 30px;
+  padding: 5px 9px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.logo {
+    width: 40%;
+    float: left;
+    padding: 20px 40px;
+    color:#e23370;
+    font-size: 15px;
+    font-weight: bold;
+}
+.loginRegister {
+      width: 40%;
+    float: right;
+    padding: 20px;  
+    color:#e23370;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+}
+.loginRegister span{
+    margin-right: 50px;
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+
+  .TextColor  {
+  color: red;
+  text-decoration: none;
+}
+ul.li {
+margin: 20px;
+padding: 30px;
+}
+}
